@@ -13,7 +13,7 @@ class Genre < ActiveRecord::Base
   end
 
   def all_artist_names
-    self.artist.collect do |song|
+    self.artists.collect do |song|
       song.artist
 
 end
