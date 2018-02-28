@@ -7,7 +7,7 @@ class Song < ActiveRecord::Base
   end
 
   def drake_made_this
-    Artist.drake_made_this = "Drake"
+    drake_made_this.artist = "Drake"
 
 
     # when this method is called it should assign the song's artist to Drake
