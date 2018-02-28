@@ -7,7 +7,7 @@ class Song < ActiveRecord::Base
   end
 
   def drake_made_this
-    self.artist = artist
+    artist.name = artist
 
 
 
